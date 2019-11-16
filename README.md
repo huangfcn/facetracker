@@ -5,7 +5,7 @@
 
 	Face detection and tracking is one of the most widely used application of deep-learning. 
 	Face detection model only detects faces visible on current frame. To track obstacle faces and moving
-	faces, we need to solve a multiple-object-tracking problem for faces. This is solved in two steps:
+	faces, we need to solve a multiple-object-tracking problem. This could be done in two steps:
   
 	1, Detecting moving faces in each frame
 	2, Tracking historical faces with some tracking algorithms
@@ -42,5 +42,5 @@
 # Misc
 	
 	1, Only x64/Release environment variables are properly set
-	2, MTCNN low level library (conv.c) can only be compiled by gcc to enable SIMD acceleration, 
-	   a visual studio compatible conv.o is provided.
+	2, MTCNN supporting library (conv.c) can only be compiled by gcc to enable SIMD acceleration, 
+	   a Visual Studio compatible conv.o is provided and compiled by gcc with '-O3 -march=native'.
