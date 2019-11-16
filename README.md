@@ -13,12 +13,13 @@
 	An assignment problem is used to associate the faces detected by detectors and tracked by trackers.
   
 	We can found some introduction of this framework here,
-
 	https://towardsdatascience.com/computer-vision-for-tracking-8220759eee85
   
 	Another example in more detail with matlab code (detecors and trackers may different),
-  
 	https://www.mathworks.com/help/vision/examples/motion-based-multiple-object-tracking.html
+
+	This link (in Chinese) helps me a lot on understanding tracking algorithms.
+	https://www.zhihu.com/question/26493945
 
 	Here I implemented a highly efficient and scalable C++ framework to combine the state of art 
 	deep-learning based face detectors (MTCNN here) and correlation filters based trackers 
