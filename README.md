@@ -18,9 +18,6 @@
 	Another example in more detail with matlab code (detecors and trackers may different),
 	https://www.mathworks.com/help/vision/examples/motion-based-multiple-object-tracking.html
 
-	This link (in Chinese) helps me a lot on understanding tracking algorithms.
-	https://www.zhihu.com/question/26493945
-
 	Here I implemented a highly efficient and scalable C++ framework to combine the state of art 
 	deep-learning based face detectors (MTCNN here) and correlation filters based trackers 
 	(KCF, Kalman Filters also implemented). The assignment problem is solved by hungarian algorithm.
